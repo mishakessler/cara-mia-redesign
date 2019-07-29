@@ -99,17 +99,14 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 
 #### Branching
 
-Open terminal, type:
-> git checkout -b {initials}-{branch type}-{component}
-> git push
-
-Copy and paste the response:
-> git push --set-upstream origin {initials}-{branch type}-{component}
-
-Ensure you have the most recent branch progress:
+Open terminal to your development branch; pull to ensure most recent merge.
 > git pull origin development
 
-Now, proceed to work on your component; add/commit as necessary.
+Next, create your new branch from your updated development branch:
+> git checkout -b {initials}-{branch type}-{component} development
+> git push --set-upstream origin {initials}-{branch type}-{component}
+
+Now, proceed to work on your component; add/commit as necessary:
 > git add .
 > git commit -m "{Message}"
 
@@ -118,7 +115,7 @@ Now, proceed to work on your component; add/commit as necessary.
 Once you're ready to merge, confirm again that you have the most recent development branch updates:
 > git pull origin development
 
-Then proceed to GitHub, submit a new Pull Request. Confirm comparison is 
+Then proceed to GitHub, submit a new Pull Request. Confirm comparison is:
 > from Development to {Your Branch}
 
 ### React
