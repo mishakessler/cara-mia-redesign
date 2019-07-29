@@ -2,7 +2,7 @@
 
 A central repo for Yellow 5's SEI/UXDI Group Project.
 
-## Table of Contents
+# Table of Contents
 
 - [Project Description](#project-description)
   - [Collaborators](#collaborators)
@@ -28,14 +28,15 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
   - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
 - [Project Followup](#project-followup)
 
-## Project Overview
+# Project Overview
 
-### Restaurant
-* [Cara Mia Website](http://queensvillage.caramiarestaurant.com/)
+Cara Mia is a local restaurant in Queens Village which finds a loyal and friendly customer base among its homely, comforting Italian atmosphere and cuisine. Cara Mia's website, while containing unique touches that make it truly theirs, struggles to show the real personality of this staple neighborhood eatery.
+
+In July of 2019, select students from General Assembly's User Experience Design Immersive and the Software Engineering Immersive (May '19 cohort) teamed up to revitalize [Cara Mia's original digital presence](http://queensvillage.caramiarestaurant.com/) and bring a much-needed fresh look to this reliable .
 
 ### Collaborators
 * [Jasmine Carpentier]()
-* [Sophia Furman]()
+* [Sophia Furman](http://sophiafurman.com/)
 * [Anum Hassan]()
 * [Misha Kessler]()
 * [Christopher Montalbo](https://github.com/Montyrivers)
@@ -49,10 +50,10 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 [Trello Task Management Board](https://trello.com/invite/b/U6agF1Ji/fa54cb61249d72bafbc8191c94cf5f56/cara-mia-user-stories)
 
 
-## Design 
+# Design 
 
 
-### Hi-Fi Prototypes
+## Hi-Fi Prototypes
 
 #### Desktop
 [Desktop Prototype](https://projects.invisionapp.com/share/35T4VR2TNSX)
@@ -64,33 +65,143 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 [Mobile Prototype](https://projects.invisionapp.com/share/7PT4T3FG3H9#/screens)
 
 
-## Development
+# Development
 
-### Functional Goals
+## Functional Goals
 
-### Functional Heirarchy
+## Functional Heirarchy
 
-### Functional Components
+## Functional Components
 
 ```
-|___ Header (MK)
-|___ Hero (CM)
-|___ Menu
-      |___ Lunch (AH)
-      |___ Dinner (CM)
-      |___ Private Party (JC)
-      |___ Catering (MK)
-|___ About (AH)
-|___ Gallery (MK)
-|___ Map (JC)
-|___ Footer (MK)
+
+(MK)    |___ Header
+(CM)    |___ Hero
+(MK)    |___ Menu
+(AH)         |___ Lunch 
+(CM)         |___ Dinner
+(JC)         |___ Private Party
+(MK)         |___ Catering 
+(AH)    |___ About 
+(MK)    |___ Gallery
+(JC)    |___ Map 
+(MK)    |___ Footer 
+
 ```
 
 ### Supporting Libraries
 
 * React
 * Semantic UI React
-* Semantic UI CSS 
+* Semantic UI CSS
+
+#### Semantic UI React 
+
+Conditional Render Menu Component
+
+```
+
+import React, { Component } from 'react'
+import { Grid, Menu, Segment } from 'semantic-ui-react'
+
+export default class MenuExampleTabularOnLeft extends Component {
+  state = { activeItem: 'bio' }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render() {
+    const { activeItem } = this.state
+
+    return (
+      <Grid>
+        <Grid.Column width={4}>
+          <Menu fluid vertical tabular>
+            <Menu.Item name='bio' active={activeItem === 'bio'} onClick={this.handleItemClick} />
+            <Menu.Item name='pics' active={activeItem === 'pics'} onClick={this.handleItemClick} />
+            <Menu.Item
+              name='companies'
+              active={activeItem === 'companies'}
+              onClick={this.handleItemClick}
+            />
+            <Menu.Item
+              name='links'
+              active={activeItem === 'links'}
+              onClick={this.handleItemClick}
+            />
+          </Menu>
+        </Grid.Column>
+
+        <Grid.Column stretched width={12}>
+          <Segment>
+            This is an stretched grid column. This segment will always match the tab height
+          </Segment>
+        </Grid.Column>
+      </Grid>
+    )
+  }
+}
+
+```
+
+Semantic UI Gallery Component 
+
+```
+
+import React from 'react'
+import { Grid, Image } from 'semantic-ui-react'
+
+const GridExampleColumnCount = () => (
+  <Grid>
+    <Grid.Row columns={3}>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+    </Grid.Row>
+
+    <Grid.Row columns={4}>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+    </Grid.Row>
+
+    <Grid.Row columns={5}>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src='/images/wireframe/image.png' />
+      </Grid.Column>
+    </Grid.Row>
+  </Grid>
+)
+
+export default GridExampleColumnCount
+
+```
  
 
 ## Conventions
@@ -120,7 +231,7 @@ Then proceed to GitHub, submit a new Pull Request. Confirm comparison is:
 
 ### React
 
-#### Component Structuring
+#### Component Structuring & Naming
 
 ```
 <div className="header">
