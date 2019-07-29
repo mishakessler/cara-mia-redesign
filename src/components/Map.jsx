@@ -1,9 +1,13 @@
 import React from 'react';
+import mapBackground from '../assets/mapBackground';
+import map from '../assets/map';
 
 class Map extends React.Component {
   render() {
     return (
       <div className='map-section'>
+        <img src={mapBackground} alt="background-photo" />
+        <img src={mapDummy} alt="map" />
 
         <h4>Hours & Location</h4>
 
