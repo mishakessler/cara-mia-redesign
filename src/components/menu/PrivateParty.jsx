@@ -4,7 +4,7 @@ class PrivateParty extends React.Component {
   render() {
     return (
       <div className='submenu'>
-        <h3>PRIVATE PARTY</h3>
+        <h3>Private Party</h3>
 
         <h4>Party Menu 1</h4>
 
