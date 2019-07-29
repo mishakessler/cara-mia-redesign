@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Lunch from './components/menu/Lunch';
-import Dinner from './components/menu/Dinner';
-import PrivateParty from './components/menu/PrivateParty';
-import Catering from './components/menu/Catering';
+import Lunch from './menu/Lunch';
+import Dinner from './menu/Dinner';
+import PrivateParty from './menu/PrivateParty';
+import Catering from './menu/Catering';
 
 export default function Menu() {
   return (
