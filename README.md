@@ -71,3 +71,32 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 ### Functional Components
 
 ### Supporting Libraries
+
+
+## Conventions
+
+### Git
+
+#### Branching
+
+Open terminal, type:
+> git checkout -b {initials}-{branch type}-{component}
+> git push
+
+Copy and paste the response:
+> git push --set-upstream origin {initials}-{branch type}-{component}
+
+Ensure you have the most recent branch progress:
+> git pull origin development
+
+Now, proceed to work on your component; add/commit as necessary.
+> git add .
+> git commit -m "{Message}"
+
+Once you're ready to merge, confirm again that you have the most recent development branch updates:
+> git pull origin development
+
+Then proceed to GitHub, submit a new Pull Request. Confirm comparison is 
+> from Development to {Your Branch}
+
+
