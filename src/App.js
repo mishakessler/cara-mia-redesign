@@ -7,7 +7,7 @@ import About from './components/About';
 import Map from './components/Map';
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
       <div className="App">
         <Lunch />

@@ -1,11 +1,11 @@
 import React from 'react';
 
-class PrivateParty extends React.Component {
-  render() {
-    return (
-      <div className='submenu'>
-        <h3>Private Party</h3>
+export default function PrivateParty() {
+  return (
+    <div className='submenu'>
+      <h3>Private Party</h3>
 
+      <div className="subsection">
         <h4>Party Menu 1</h4>
 
         <h5>First Course - Salad</h5>
@@ -28,7 +28,9 @@ class PrivateParty extends React.Component {
 
         <h6>35$ per person</h6>
         <h6>Tax and 20% gratuity will be added</h6>
+      </div>
 
+      <div className="subsection">
         <h4>Party Menu 2</h4>
 
         <h5>First Course - Salad</h5>
@@ -50,14 +52,12 @@ class PrivateParty extends React.Component {
         <h5>Homemade Cannoli, Tartufo, Cheesecake</h5>
 
         <h6>45$ per person</h6>
-
-        <h6>Tax & 20% gratuity will be added</h6>
-
-        <h5>Please inquire about custom menu's and liquor packages</h5>
-
       </div>
-    )
-  }
-}
 
-export default PrivateParty
+      <p>Tax & 20% gratuity will be added for all private parties.</p>
+
+      <p>Please inquire about custom menus and liquor packages.</p>
+
+    </div>
+  )
+}

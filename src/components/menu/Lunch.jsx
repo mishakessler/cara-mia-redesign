@@ -1,11 +1,12 @@
 import React from 'react';
 
-class Lunch extends React.Component {
-  render() {
-    return (
-      <div className="submenu">
-        <h3>Lunch</h3>
-        <h4>Salads</h4>
+export default function Lunch() {
+  return (
+    <div className="submenu">
+      <h3>Lunch</h3>
+
+      <div className="subsection">
+        <h4>Salad</h4>
 
         <h5>Caesar</h5>
         <p>romaine lettuce tossed in our traditional caesar dressing with garlic croutons</p>
@@ -31,8 +32,22 @@ class Lunch extends React.Component {
         <p>romaine lettuce, tomatoes and cucumbers in house balsamic vinaigrette</p>
         <h6>$4</h6>
       </div>
-    )
-  }
-}
 
-export default Lunch;
+      <div className="subsection">
+        soup
+      </div>
+
+      <div className="subsection">
+        Appetizers
+        </div>
+
+      <div className="subsection">
+        Heroes
+        </div>
+
+      <div className="subsection">
+        Specialties
+      </div>
+    </div>
+  )
+}
