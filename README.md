@@ -30,16 +30,17 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 
 ## Project Overview
 
+### Restaurant
 * [Cara Mia Website](http://queensvillage.caramiarestaurant.com/)
 
 ### Collaborators
-* Jasmine Carpentier
-* Sophia Furman
-* Anum Hassan
-* Misha Kessler
+* [Jasmine Carpentier]()
+* [Sophia Furman]()
+* [Anum Hassan]()
+* [Misha Kessler]()
 * [Christopher Montalbo](https://github.com/Montyrivers)
-* Christine Wong
-* Helena Yau
+* [Christine Wong]()
+* [Helena Yau]()
 
 ## Group Resources
 
@@ -70,6 +71,20 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 ### Functional Heirarchy
 
 ### Functional Components
+
+```
+|___ Header (MK)
+|___ Hero (CM)
+|___ Menu
+      |___ Lunch (AH)
+      |___ Dinner (CM)
+      |___ Private Party (JC)
+      |___ Catering (MK)
+|___ About (AH)
+|___ Gallery (MK)
+|___ Map (JC)
+|___ Footer (MK)
+```
 
 ### Supporting Libraries
 
@@ -110,6 +125,7 @@ Then proceed to GitHub, submit a new Pull Request. Confirm comparison is
 
 #### Component Structuring
 
+```
 <div className="header">
   <div className="secondary-nav">
 
@@ -118,3 +134,14 @@ Then proceed to GitHub, submit a new Pull Request. Confirm comparison is
 
   </div>
 </div>
+```
+
+```
+<h2>Menu</h2>
+  <div className="submenu">
+    <h3>Lunch</h3>
+      <h4>Salad<h4>
+        <h5>Foodname</h5>
+          <p>Food descriptions</p>
+          <h6>Price</h6>
+```
