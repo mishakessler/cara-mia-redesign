@@ -17,13 +17,12 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
     - [Post-MVP](#post-mvp)
   - [Functional Heirarchy](#functional-heirarchy)
     - [Repo Structure](#repo-structure)
-    - [Database Table Structure](#express-database-structure)
-    - [React Structure](#react-structure)
   - [Functional Components](#functional-components)
     - [Component Breakdown](#component-breakdown)
     - [Component Timeframes](#component-timeframes)
     - [Helper Functions](#helper-functions)
   - [Supporting Libraries](#supporting-libraries)
+  - [Conventions](#conventions)
 - [Project Review](#project-review)
   - [Code Showcase](#code-showcase)
   - [Bugs, Issues, and Resolutions](#issues-&-resolutions)
@@ -43,6 +42,8 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 * Helena Yau
 
 ## Group Resources
+
+[Group Drive Folder](https://drive.google.com/drive/folders/1gayygj3YnICzn9SYZBJ7BG1EuYEcVscr)
 
 [Trello Task Management Board](https://trello.com/invite/b/U6agF1Ji/fa54cb61249d72bafbc8191c94cf5f56/cara-mia-user-stories)
 
@@ -72,6 +73,10 @@ A central repo for Yellow 5's SEI/UXDI Group Project.
 
 ### Supporting Libraries
 
+* React
+* Semantic UI React
+* Semantic UI CSS 
+ 
 
 ## Conventions
 
@@ -93,10 +98,23 @@ Now, proceed to work on your component; add/commit as necessary.
 > git add .
 > git commit -m "{Message}"
 
+#### Merging
+
 Once you're ready to merge, confirm again that you have the most recent development branch updates:
 > git pull origin development
 
 Then proceed to GitHub, submit a new Pull Request. Confirm comparison is 
 > from Development to {Your Branch}
 
+### React
 
+#### Component Structuring
+
+<div className="header">
+  <div className="secondary-nav">
+
+  </div>
+  <div className="primary-nav">
+
+  </div>
+</div>
