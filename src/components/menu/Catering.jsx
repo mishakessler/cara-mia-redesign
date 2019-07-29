@@ -3,9 +3,9 @@ import React from 'react'
 export default function Catering() {
   return (
     <div className="submenu">
-      <div>
-        <h3>Catering</h3>
+      <h3>Catering</h3>
 
+      <div className="subsection">
         <h4>Appetizers & Salads</h4>
 
         <h5>Fresh Mozarella & Tomatoes</h5>
@@ -24,6 +24,23 @@ export default function Catering() {
         <p>Half Tray/Full Tray</p>
         <h6>$45/$75</h6>
       </div>
+
+      <div className="subsection">
+        pasta
+      </div>
+
+      <div className="subsection">
+        italian specialties
+      </div>
+
+      <div className="subsection">
+        seafood
+      </div>
+
+      <div className="subsection">
+        vegetables
+      </div>
+
     </div>
   )
 }
