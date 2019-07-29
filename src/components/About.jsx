@@ -1,6 +1,6 @@
 import React from 'react'
-import about1 from '../assets/about1'
-import about2 from '../assets/about2'
+import about1 from '../assets/about1.png'
+import about2 from '../assets/about2.png'
 
 
 class About extends React.Component {

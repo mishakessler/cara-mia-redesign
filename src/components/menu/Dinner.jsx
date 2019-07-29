@@ -196,6 +196,65 @@ export default function Dinner() {
       <p>with lemon and white wine sauce, topped with breadcrumbs</p>
       <h6>$35</h6>
 
+      <h5>Flounder Oreganata</h5>
+      <p>with lemon and white wine sauce, topped with breadcrumbs</p>
+      <h6>$26</h6>
+
+      <h5>Salmon Oreganata</h5>
+      <p>with lemon and white wine sauce, topped with breadcrumbs</p>
+      <h6>$27</h6>
+
+      <h5>Flounder Francese</h5>
+      <p>lightly battered in lemon and white wine sauce</p>
+      <h6>$26</h6>
+
+      <h5>Shrimp Parmigiana</h5>
+      <h6>$25</h6>
+
+      <h5>Fried Shrimp</h5>
+      <p>with tartar sauce</p>
+      <h6>$25</h6>
+
+      <h5>Shrimp Fra Diavolo</h5>
+      <h6>$26</h6>
+
+      <h5>Shrimp Monachino</h5>
+      <p>breaded shrimp sautéed with onions and mushrooms in a sweet vermouth sauce and topped with melted mozzarella cheese</p>
+      <h6>$28</h6>
+
+      <h5>Shrimp Francese</h5>
+      <p>lightly battered in lemon and white wine sauce</p>
+      <h6>$26</h6>
+
+      <h5>Shrimp Marinara</h5>
+      <h6>$26</h6>
+
+      <h5>Shrimp Scampi</h5>
+      <h6>$26</h6>
+
+      <h5>Shrimp and Chicken Francese</h5>
+      <p>lightly battered in lemon and white wine sauce</p>
+      <h6>$26</h6>
+
+      <h5>Calamari Fra Diavolo</h5>
+      <p>sautéed in a (medium) spicy marinara sauce garnished with clams</p>
+      <h6>$25</h6>
+
+      <h5>Scungilli Fra Diavolo</h5>
+      <p>sautéed in a (medium) spicy marinara sauce garnished with clams</p>
+      <h6>$30</h6>
+
+      <p>
+        all above entrees are served with choice of:
+  spaghetti with tomato sauce (extra charge for change of sauce) or side salad with house dressing or homemade french fries
+  substitute a vegetable for an extra charge of $5
+      </p>
+
+      <h4>Seafood Pasta Specials</h4>
+
+      <h5></h5>
+      <p></p>
+      <h6></h6>
     </div>
   )
 }
