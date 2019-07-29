@@ -30,8 +30,6 @@ class Lunch extends React.Component{
                 <h5>Side</h5>
                 <p>romaine lettuce, tomatoes and cucumbers in house balsamic vinaigrette</p>
                 <h6>$4</h6>
-
-
             </div>
         )
     }
