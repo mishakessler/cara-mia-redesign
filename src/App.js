@@ -6,8 +6,10 @@ import Hero from './components/Hero';
 import TabMenu from './components/TabMenu';
 import About from './components/About';
 import Map from './components/Map';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className="app">
@@ -15,10 +17,10 @@ class App extends React.Component {
         <Hero />
         <TabMenu />
         <About />
+        <Gallery />
         <Map />
+        <Footer />
       </div>
     );
   }
 }
-
-export default App;
