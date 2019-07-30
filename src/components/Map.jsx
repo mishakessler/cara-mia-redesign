@@ -6,8 +6,8 @@ class Map extends React.Component {
   render() {
     return (
       <div className='map-section'>
-        <img src={mapBackground} alt="background-photo" />
-        <img src={map} alt="map" />
+        <img src={mapBackground} alt="Map Background" />
+        <img src={map} alt="Map Mockup" />
 
         <h4>Hours & Location</h4>
 
