@@ -244,17 +244,130 @@ export default function Dinner() {
       <p>sautéed in a (medium) spicy marinara sauce garnished with clams</p>
       <h6>$30</h6>
 
-      <p>
-        all above entrees are served with choice of:
-  spaghetti with tomato sauce (extra charge for change of sauce) or side salad with house dressing or homemade french fries
-  substitute a vegetable for an extra charge of $5
-      </p>
+      <p>all above entrees are served with choice of spaghetti with tomato sauce (extra charge for change of sauce) or side salad with house dressing or homemade french fries substitute a vegetable for an extra charge of $5</p>
 
-      <h4>Seafood Pasta Specials</h4>
+      <div className="subsection">
 
-      <h5></h5>
-      <p></p>
-      <h6></h6>
+        <h4>Seafood Pasta Specials</h4>
+
+        <h5>Shrimp alla Cara Mia</h5>
+        <p>sautéed shrimp in a creamy garlic sauce served over a bed of linguine</p>
+        <h6>$26</h6>
+
+        <h5>Linguini Clam Sauce</h5>
+        <p>linguini with fresh clams in a red sauce or white sauce</p>
+        <h6>$22</h6>
+
+        <h5>Mussels Marinara</h5>
+        <p>prince edward mussels sautéed in marinara sauce, served over a bed of linguini</p>
+        <h6>$23</h6>
+
+        <h5>Seafood Combo</h5>
+        <p>mussels, clams, scungilli, shrimp and calamari in marinara sauce over linguine</p>
+        <h6>$35</h6>
+
+      </div>
+
+      <div className="subsection">
+
+        <h4>Pasta</h4>
+
+        <h5>Lasagna</h5>
+        <h6>$18</h6>
+
+        <h5>Manicotti</h5>
+        <h6>$17</h6>
+
+        <h5>Cheese or Meat Ravioli</h5>
+        <h6>$18</h6>
+
+        <h5>Baked Cheese or Meat Ravioli</h5>
+        <h6>$19</h6>
+
+        <h5>Spinach Ravioli Portobello</h5>
+        <h6>$21</h6>
+
+        <h5>Gnocchi Bolognese</h5>
+        <h6>$20</h6>
+
+        <h5>Baked Ziti</h5>
+        <h6>$16</h6>
+
+        <h5>Baked Ziti Sicilian</h5>
+        <p>with eggplant</p>
+        <h6>$17</h6>
+
+        <h5>Ricotta Stuffed Rigatoni</h5>
+        <p>In meat sauce</p>
+        <h6>$20</h6>
+
+        <h5>Penne alla Vodka</h5>
+        <p>Add grilled or fried chicken $4, add grilled or fried shrimp $8</p>
+        <h6>$17</h6>
+
+        <h5>Penne Primavera</h5>
+        <p>Sautéed mixed vegetables in garlic and oil</p>
+        <h6>$19</h6>
+
+        <h5>Rigatoni with Broccoli, Garlic and Oil</h5>
+        <p>Add grilled or fried chicken $4, add grilled or fried shrimp $8</p>
+        <h6>$17</h6>
+
+        <h5>Fettuccini Alfredo</h5>
+        <p>Add grilled or fried chicken $4, add grilled or fried shrimp $8</p>
+        <h6>$18</h6>
+
+        <h5>Rigatoni Portobello and Chicken</h5>
+        <p>rigatoni, portobello mushrooms and chicken sautéed in marsala wine sauce with a touch of marinara sauce over rigatoni mezzi</p>
+        <h6>$21</h6>
+
+        <h5>Linguine Garlic and Oil</h5>
+        <h6>$15</h6>
+
+        <h5>Penne with Sweet Sausage</h5>
+        <h6>$17</h6>
+
+        <h5>Spaghetti with Nonna's Meatballs</h5>
+        <h6>$17</h6>
+
+        <h5>Spaghetti with Nonna's Meatballs with Meat Sauce</h5>
+        <h6>$18</h6>
+
+        <p>Whole wheat pasta or gluten free pasta add $2</p>
+
+      </div>
+
+      <div className="subsection">
+
+        <h4>Side Dishes</h4>
+
+        <h5>Nonna's Meatballs</h5>
+        <h6>$8</h6>
+
+        <h5>Homemade French Fries</h5>
+        <h6>$7</h6>
+
+        <h5>Sautéed Broccoli</h5>
+        <p>in garlic and oil</p>
+        <h6>$9</h6>
+
+        <h5>Sautéed Spinach</h5>
+        <p>in garlic and oil</p>
+        <h6>$9</h6>
+
+        <h5>Sautéed Zucchini</h5>
+        <p>in garlic and oil</p>
+        <h6>$9</h6>
+
+        <h5>Sautéed Asparagus</h5>
+        <p>in garlic and oil</p>
+        <h6>$9</h6>
+
+        <h5>Sautéed Broccoli Rabe</h5>
+        <p>in garlic and oil</p>
+        <h6>$10</h6>
+
+      </div>
     </div>
   )
 }

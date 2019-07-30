@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
-import PrivateParty from './components/menu/PrivateParty';
-import Lunch from './components/menu/Lunch';
-import Dinner from './components/menu/Dinner';
+
+import Header from './components/Header';
+import Hero from './components/Hero';
+import TabMenu from './components/TabMenu';
 import About from './components/About';
 import Map from './components/Map';
 
 class App extends React.Component {
-  render(){
+  render() {
     return (
-      <div className="App">
-        <Lunch />
-        <Dinner />
-        <PrivateParty />
+      <div className="app">
+        <Header />
+        <Hero />
+        <TabMenu />
         <About />
         <Map />
       </div>

@@ -1,3 +1,8 @@
-.App {
+html {
   text-align: center;
+  scroll-behavior: smooth;
+}
+
+body {
+  
 }
