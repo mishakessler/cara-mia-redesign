@@ -1,10 +1,10 @@
 import React from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 
-import Lunch from './menu/Lunch';
-import Dinner from './menu/Dinner';
-import PrivateParty from './menu/PrivateParty';
-import Catering from './menu/Catering';
+import Lunch from '../menu/Lunch';
+import Dinner from '../menu/Dinner';
+import PrivateParty from '../menu/PrivateParty';
+import Catering from '../menu/Catering';
 
 export default class MobileMenu extends React.Component {
   state = { activeItem: 'lunch' }
