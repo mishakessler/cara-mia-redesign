@@ -1,0 +1,39 @@
+.footer {
+  height: 232px;
+  color: #666666;
+}
+
+#footer-hours {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+#footer-address {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-address img {
+  width: 155px;
+  height: 131px;
+  opacity: 0.85;
+  margin: 0 auto;
+}
+
+#footer-contact {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer-socials img {
+  width: 60px;
+  padding: 10px
+}
+
+#footer-contact-link {
+  pointer-events:none;
+}

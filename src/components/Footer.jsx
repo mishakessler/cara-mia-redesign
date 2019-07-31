@@ -22,14 +22,16 @@ export default function Footer() {
       </div>
       <div id="footer-contact">
         <div id="footer-socials">
-          <img src={InstagramIcon} alt="logo" />
-          <img src={facebookIcon} alt="logo" />
-          <img src={TwitterIcon} alt="logo" />
+          <a href="https://www.instagram.com/caramiarestaurant/?hl=en"><img src={InstagramIcon} alt="logo" /></a>
+          <a href="https://www.facebook.com/CaraMiaRestaurant"><img src={facebookIcon} alt="logo" /></a>
+          <a href="https://www.facebook.com/CaraMiaRestaurant"><img src={TwitterIcon} alt="logo" /></a>
         </div>
-        <img src={EmailIcon} alt="logo" />
-        <p>info@caramiarestaurant.com</p>
-        <img src={PhoneIcon} alt="logo" />
-        <p>(718) 740-9118</p>
+        <div id='footer-contact-link'>
+          <img src={EmailIcon} alt="logo" />
+          <a href="info@caramiarestaurant.com">info@caramiarestaurant.com</a>
+          <img src={PhoneIcon} alt="logo" />
+          <a href="tel:718-740-9118">718-740-9118</a>
+        </div>
       </div>
     </div>
   )
