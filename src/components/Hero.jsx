@@ -9,7 +9,7 @@ export default function Hero() {
         <button className="cta-button">Catering</button>
       </div>
       <div>
-        <p>Traditional Italian Restaurant Specializing In Roman Trattoria Fare</p>
+        <h4 className="hero-text">Traditional Italian Restaurant Specializing In Roman Trattoria Fare</h4>
       </div>
     </div>
   )
