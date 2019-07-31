@@ -2,16 +2,13 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className="section hero-section">
       <div>
-        <button>Reservations</button>
-        <button>Catering</button>
+        <button className="cta-button">Reservations</button>
+        <button className="cta-button">Catering</button>
       </div>
       <div>
-        <p>Traditional Italian
-          Restaurant Specializing
-          In Roman Trattoria Fare
-        </p>
+        <p>Traditional Italian Restaurant Specializing In Roman Trattoria Fare</p>
       </div>
     </div>
   )

@@ -3,8 +3,8 @@ import './App.css';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
-import TabMenu from './components/TabMenu';
-import MobileMenu from './components/MobileMenu'
+import TabMenu from './components/semantic/TabMenu';
+import MobileMenu from './components/semantic/MobileMenu'
 import About from './components/About';
 import Map from './components/Map';
 import Gallery from './components/Gallery';
