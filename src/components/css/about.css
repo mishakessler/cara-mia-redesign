@@ -1,0 +1,19 @@
+.about-section {
+  height: 600px;
+  display: flex;
+}
+
+.about-pics {
+  width: 40vw;
+}
+.about-pics img {
+  width: 100%;
+}
+
+.about-text {
+  width: 60vw;
+  padding: 50px 70px 50px 40px;
+  text-align: left;
+  background-color: #fef5eb88;
+  
+}
