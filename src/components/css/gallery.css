@@ -1,0 +1,44 @@
+
+.gallery-section{
+    background-color:#e6efec;
+}
+
+.ui.grid>.row{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: none;
+}
+
+.ui image img{
+    height: 30px;
+}
+
+.gallery-section .column {
+    padding: 0 145px;
+}
+
+.ui.grid>[class*="three column"].row>.column{
+    width: auto!important;
+    margin: auto;
+}
+
+.column img {
+    height: 270px;
+    width: 270px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .column img {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .column img {
+        height: 150px;
+        width: 150px
+    }
+}
