@@ -1,4 +1,6 @@
 import React from 'react'
+import '../css/menu.css'
+
 import { Grid, Menu, Segment } from 'semantic-ui-react'
 
 import Lunch from '../menu/Lunch';
