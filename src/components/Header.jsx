@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='header'>
       <div className='secondary-nav'>
-        <p>Cara Mia Restaurant</p>
+        <p><b>Cara Mia Restaurant</b></p>
         <p>220-20 Hillside Avenue, Queens Village, NY 11427</p>
         <p>718.740.9118</p>
         <p>Hours: Tues-Fri: 11am-10pm • Sat: 12pm-10pm • Sun: 1pm-9pm </p>
