@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Menu from './components/Menu';
+import TabMenu from './components/TabMenu';
 import About from './components/About';
 import Map from './components/Map';
 import Gallery from './components/Gallery';
@@ -15,7 +15,7 @@ export default class App extends React.Component {
       <div className="app">
         <Header />
         <Hero />
-        <Menu />
+        <TabMenu />
         <About />
         <Gallery />
         <Map />
