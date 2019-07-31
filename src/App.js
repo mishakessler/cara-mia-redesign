@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import TabMenu from './components/TabMenu';
+import MobileMenu from './components/MobileMenu'
 import About from './components/About';
 import Map from './components/Map';
 import Gallery from './components/Gallery';
@@ -16,6 +17,7 @@ export default class App extends React.Component {
         <Header />
         <Hero />
         <TabMenu />
+        <MobileMenu />
         <About />
         <Gallery />
         <Map />
