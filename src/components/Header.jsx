@@ -1,4 +1,6 @@
 import React from 'react'
+import './css/header.css'
+
 import CaraMiaLogo from '../assets/CaraMiaLogo.png'
 
 export default function Header() {

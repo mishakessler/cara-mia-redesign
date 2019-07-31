@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Image } from 'semantic-ui-react'
-import about1 from '../assets/about1.png'
+import about1 from '../../assets/about1.png'
 
 const GalleryGrid = () => (
   <Grid>

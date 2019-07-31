@@ -1,5 +1,6 @@
 import React from 'react';
-import mapBackground from '../assets/mapBackground.png';
+import './css/map.css'
+
 import map from '../assets/map.png';
 
 class Map extends React.Component {
