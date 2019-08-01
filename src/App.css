@@ -1,8 +1,32 @@
 html {
-  text-align: center;
   scroll-behavior: smooth;
 }
 
 body {
   
 }
+
+
+@media all and (min-width: 1025px) {
+  .mobile {
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+}
+
+
+@media all and (max-width: 980px) {
+  
+}
+
+
+@media all and (max-width: 480px) {
+  
+}
+
