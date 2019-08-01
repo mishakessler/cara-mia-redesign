@@ -14,7 +14,6 @@ export default function Footer() {
       <div className="footer-column" id="footer-hours">
         <p>Tues-Fri: 11am-10pm</p>
         <p>Sat: 12pm-10pm • Sun: 1pm-9pm</p>
-        <p>Closed</p>
       </div>
       <div className="footer-column" id="footer-address">
         <img src={CaraMiaLogo} alt="logo" />
