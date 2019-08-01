@@ -1,17 +1,19 @@
 .footer {
-  height: 232px;
   color: #666666;
+  padding: 50px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.footer-column {
+  padding: 10px;
 }
 
 #footer-hours {
-  display: flex;
-  flex-direction: column;
-  float: left;
 }
 
 #footer-address {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 #footer-address img {
@@ -22,25 +24,9 @@
 }
 
 #footer-contact {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  padding: 5px;
-  margin: 5px;
 }
 
 #footer-socials img {
   width: 60px;
-  padding: 10px
-}
-
-#footer-contact-link {
-  pointer-events:none;
-  display: flex;
-  flex-direction: column;
-}
-
-#footer-contact-link img {
-  width: 30px;
   padding: 10px
 }
