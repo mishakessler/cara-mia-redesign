@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/header.css'
 
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 import CaraMiaLogo from '../assets/CaraMiaLogo.png'
 
 export default function Header() {
@@ -14,11 +16,11 @@ export default function Header() {
       </div>
       <div className='primary-nav'>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#menu">Menu</a></li>
+          <li><AnchorLink href="#home">Home</AnchorLink></li>
+          <li><AnchorLink href="#menu">Menu</AnchorLink></li>
           <li><img src={CaraMiaLogo} alt="logo" /></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <li><AnchorLink href="#about">About</AnchorLink></li>
+          <li><AnchorLink href="#gallery">Gallery</AnchorLink></li>
         </ul>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Button, Icon, Menu, Segment, Sidebar } from 'semantic-ui-react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 import Hero from '../Hero';
 import MobileMenu from './MobileMenu'
@@ -42,7 +44,7 @@ export default class SidebarMenu extends React.Component {
             width='thin'
           >
             <Menu.Item as='a'>
-              Home
+              <AnchorLink href="#home">Home</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
               Games

@@ -8,7 +8,7 @@ import about from '../assets/about-image.png'
 class About extends React.Component {
   render() {
     return (
-      <div className="section about-section">
+      <div className="section about-section" id="about">
 
         <div className="about-pics">
           <img src={about} alt="Family making dough at Cara Mia./ Handkneading pizza dough at Cara Mia." />

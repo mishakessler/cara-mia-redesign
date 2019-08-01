@@ -10,7 +10,7 @@ import PhoneIcon from '../assets/PhoneIcon.png'
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className="footer" id="footer">
       <div className="footer-column" id="footer-hours">
         <p>Tues-Fri: 11am-10pm</p>
         <p>Sat: 12pm-10pm • Sun: 1pm-9pm</p>

@@ -3,7 +3,7 @@ import './css/hero.css'
 
 export default function Hero() {
   return (
-    <div className="section hero-section">
+    <div className="section hero-section" id="hero">
       <div className="cta">
         <a href="#footer" className="cta-button">Reservations</a>
         <a href="#menu" className="cta-button">Catering</a>
