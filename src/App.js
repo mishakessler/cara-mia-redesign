@@ -5,7 +5,6 @@ import SidebarMenu from './components/semantic/SidebarMenu';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import TabMenu from './components/semantic/TabMenu';
-import MobileMenu from './components/semantic/MobileMenu'
 import About from './components/About';
 import Map from './components/Map';
 import Gallery from './components/Gallery';

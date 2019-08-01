@@ -1,17 +1,19 @@
 .map-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url('../../assets/mapBackground.png')
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('../../assets/mapBackground.png')
 }
 
 .hours-info{
-    height: 479px;;
-    width: 375px;
-    align-content: center;
-    background-color: white;
-    line-height: 10px;
+  text-align: center;
+  height: 479px;
+  width: 375px;
+  padding: 25px;
+  align-content: center;
+  background-color: white;
+  line-height: 10px;
 }
 
 .hours-info h4{

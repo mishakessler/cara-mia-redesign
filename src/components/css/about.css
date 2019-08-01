@@ -7,15 +7,16 @@
   max-width: 40vw;
   z-index: 2;
 }
+
 .about-pics img {
-  margin-top: -60px;
-  max-height: 500px;
+  margin-top: -125px;
+  max-height: 600px;
 }
 
 .about-text {
   min-width: 60vw;
-  margin: -100px 0 -100px -140px;
-  padding: 100px 70px 150px 200px;
+  margin: -100px 0 -100px -100px;
+  padding: 100px 100px 150px 250px;
   text-align: left;
   background-color: #fef5eb88;
   

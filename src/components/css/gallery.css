@@ -2,6 +2,7 @@
     background-color:#e6efec;
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 100px;
 }
 
 /* .ui.grid>.row{
@@ -11,22 +12,22 @@
     padding: none;
 } */
 
-.ui image img{
+/* .ui image img{
     height: 30px;
-}
+} */
 
 .gallery-section .column {
     padding: 0 145px;
 }
 
 .ui.grid>[class*="three column"].row>.column{
-    width: auto!important;
+    width: auto !important;
     margin: auto;
 }
 
 .column img {
-    height: 270px;
-    width: 270px;
+    max-height: 26vw;
+    max-width: 26vw;
 }
 
 
