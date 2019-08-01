@@ -5,7 +5,7 @@ import GalleryGrid from './semantic/GalleryGrid'
 
 export default function Gallery() {
   return (
-    <div className="section gallery-section">
+    <div className="section gallery-section" id="gallery">
       <h2>Gallery</h2>
       <GalleryGrid />
     </div>

@@ -30,7 +30,7 @@ export default class MobileMenu extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <div>
+      <div id="menu">
         <Menu attached='top' tabular>
           <Menu.Item
             name='lunch'

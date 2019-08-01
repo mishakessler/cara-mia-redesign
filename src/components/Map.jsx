@@ -6,7 +6,7 @@ import map from '../assets/map.png';
 class Map extends React.Component {
   render() {
     return (
-      <div className='section map-section'>
+      <div className='section map-section' id="map">
         <div className='hours-info'>
           <h4>Hours & Location</h4>
           <h5>Tuesday - Friday</h5>
