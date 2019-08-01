@@ -1,19 +1,27 @@
 .about-section {
-  height: 600px;
+  height: 500px;
   display: flex;
 }
 
 .about-pics {
-  width: 40vw;
+  max-width: 40vw;
+  z-index: 2;
 }
 .about-pics img {
-  width: 100%;
+  margin-top: -60px;
+  max-height: 500px;
 }
 
 .about-text {
-  width: 60vw;
-  padding: 50px 70px 50px 40px;
+  min-width: 60vw;
+  margin: -100px 0 -100px -140px;
+  padding: 100px 70px 150px 200px;
   text-align: left;
   background-color: #fef5eb88;
   
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.75;
 }
