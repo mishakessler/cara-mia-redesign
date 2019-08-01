@@ -3,8 +3,6 @@ import React from 'react';
 export default function Catering() {
   return (
     <div className="submenu">
-      <h3>Catering</h3>
-
       <div className="subsection">
         <h4>Appetizers & Salads</h4>
 

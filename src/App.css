@@ -3,7 +3,57 @@ html {
 }
 
 body {
-  
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: green;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: navy;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+h5 {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+h6 {
+
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
 }
 
 
@@ -20,11 +70,9 @@ body {
   }
 }
 
-
 @media all and (max-width: 980px) {
   
 }
-
 
 @media all and (max-width: 480px) {
   

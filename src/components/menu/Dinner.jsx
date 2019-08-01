@@ -3,8 +3,6 @@ import React from 'react'
 export default function Dinner() {
   return (
     <div className="submenu">
-      <h3>Dinner</h3>
-
       <div className="subsection">
         <h4>Salad</h4>
 

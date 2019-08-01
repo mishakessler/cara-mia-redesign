@@ -3,8 +3,6 @@ import React from 'react';
 export default function PrivateParty() {
   return (
     <div className='submenu'>
-      <h3>Private Party</h3>
-
       <div className="subsection">
         <h4>Party Menu 1</h4>
 
