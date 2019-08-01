@@ -3,9 +3,10 @@ import React from 'react';
 export default function Lunch() {
   return (
     <div className="submenu">
-      <div className="subsection">
-        <h4>Salad</h4>
 
+      <h4>Salad</h4>
+
+      <div className="subsection">
         <h5>Caesar</h5>
         <p>romaine lettuce tossed in our traditional caesar dressing with garlic croutons</p>
         <h6>$16</h6>
@@ -31,8 +32,9 @@ export default function Lunch() {
         <h6>$4</h6>
       </div>
 
+      <h4>Soup</h4>
+
       <div className="subsection">
-        <h4>Soup</h4>
 
         <h5>Escarole & Beans</h5>
         <p>red & white cannelloni beans with fresh sautéed escarole, garlic and oil</p>
@@ -60,8 +62,9 @@ export default function Lunch() {
         <h6>$6</h6>
       </div>
 
+      <h4>Appetizers</h4>
+
       <div className="subsection">
-        <h4>Appetizers</h4>
 
         <h5>Fried Calamari</h5>
         <p>Voted LI’s Best! Crispy golden fried calamari served with marinara sauce</p>
@@ -85,15 +88,11 @@ export default function Lunch() {
 
         <h5>Mozzarella Sticks</h5>
         <h6>$8</h6>
-
-
-
-
-
       </div>
 
+      <h4>Heroes</h4>
+
       <div className="subsection">
-        <h4>Heroes</h4>
 
         <h5>Chicken Parmigiana</h5>
         <h6>$9</h6>
@@ -126,12 +125,12 @@ export default function Lunch() {
 
         <h5>Salami and Provolone</h5>
         <h6>$9</h6>
-
-
       </div>
 
+      <h4>Specialties</h4>
+
       <div className="subsection">
-        <h4>Specialties</h4>
+
 
         <h5>Penne Primavera</h5>
         <p>penne with vegetables, garlic & oil</p>
@@ -161,15 +160,12 @@ export default function Lunch() {
         <p>shrimp in creamy garlic sauce served over a bed of linguine</p>
         <h6>$22</h6>
 
-
-
-
-
       </div>
 
+      <h4>Entrees</h4>
 
       <div className="subsection">
-        <h4>Entrees</h4>
+
         <h5>Chicken Francaise</h5>
         <h6>$18</h6>
 
@@ -205,8 +201,9 @@ export default function Lunch() {
         <h6>$22</h6>
       </div>
 
+      <h4>Lunch Specials</h4>
+
       <div className="subsection">
-        <h4>Lunch Specials</h4>
 
         <h5>Salad Choice</h5>
         <p>Tossed Salad with house dressing or Minestrone Soup or Chicken Soup</p>
@@ -215,9 +212,7 @@ export default function Lunch() {
         <p>Baked Ziti, Baked Ziti Sicilian, Lasagna, Manicotti, Cheese or Meat Ravioli, Baked Ravioli, Spaghetti & Meatball, Linguine Marinara, Rigatoni with Sausage, Penne with Garlic & Oil</p>
         <h6>$16</h6>
 
-        <small>includes coffee or tea</small>
-
-
+        <p><em>includes coffee or tea</em></p>
       </div>
     </div>
   )
