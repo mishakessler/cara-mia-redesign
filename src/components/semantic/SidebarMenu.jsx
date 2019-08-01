@@ -54,12 +54,12 @@ export default class SidebarMenu extends React.Component {
 
           <Sidebar.Pusher dimmed={visible}>
             <Segment basic>
-              <Hero />
-              <MobileMenu />
-              <About />
-              <Gallery />
-              <Map />
-              <Footer />
+              <Hero id="hero" />
+              <MobileMenu id="menu" />
+              <About id="about" />
+              <Gallery id="gallery" />
+              <Map id="map" />
+              <Footer id="footer" />
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>

@@ -17,13 +17,13 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <div className="desktop">
-          <Header />
-          <Hero />
-          <TabMenu />
-          <About />
-          <Gallery />
-          <Map />
-          <Footer />
+          <Header id="header" />
+          <Hero id="hero" />
+          <TabMenu id="menu" />
+          <About id="about" />
+          <Gallery id="gallery" />
+          <Map id="map" />
+          <Footer id="footer" />
         </div>
         <div className="mobile">
           <SidebarMenu />
