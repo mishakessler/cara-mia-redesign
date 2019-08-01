@@ -4,12 +4,12 @@ import './css/hero.css'
 export default function Hero() {
   return (
     <div className="section hero-section">
-      <div>
-        <button className="cta-button">Reservations</button>
-        <button className="cta-button">Catering</button>
+      <div className="cta">
+        <a href="#footer" className="cta-button">Reservations</a>
+        <a href="#menu" className="cta-button">Catering</a>
       </div>
-      <div>
-        <h4 className="hero-text">Traditional Italian Restaurant Specializing In Roman Trattoria Fare</h4>
+      <div className="hero-text">
+        <h4>A Traditional Italian Restaurant Specializing In Roman Trattoria Fare</h4>
       </div>
     </div>
   )

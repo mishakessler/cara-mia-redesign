@@ -1,31 +1,38 @@
 .hero-section {
   background: url('../../assets/HeaderImage.png');
-  background-position: center center;
+  background-position: center right;
   background-repeat: none;
   background-size: cover;
-  height: 600px;
-  padding-top: 120px;
+  min-height: 600px;
+  padding: 40px;
 }
 
 .hero-section div {
-   margin-left: 75vw;
-   width: 300px;
-  }
+  margin-left: 70vw;
+}
 
-  .cta-button {
-    box-shadow: unset;
-    border-style: unset;
-    width: 250px;
-    height:60px;
-    border-radius: 0;
-    margin-top: 50px;
-  }
-  
-  .hero-text {
-    position: relative;
-    top: 50px;
-    height: 60px;
-  }
+.cta {
+  margin: 150px 0 50px 0;
+  text-align: center;
+}
+
+.cta-button {
+  display: block;
+  width: 80%;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 0;
+  background: white;
+  color: #565656;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-text {
+  margin-top: 80px;
+}
 
 
 
