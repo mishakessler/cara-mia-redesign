@@ -1,0 +1,29 @@
+.menu-section {
+  padding: 75px 100px 100px 0px;
+  background-color: #d8e6e2;
+}
+
+.menu-section .ui .segment {
+  max-height: 1000px;
+  overflow-y: scroll;
+  background: white;
+}
+
+.menu-section h2 {
+  text-align: center;
+}
+
+.menu-section .item {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-section .menu .item {
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.menu-section .menu .active.item {
+  font-weight: 300;
+  background: #decdbc !important;
+}

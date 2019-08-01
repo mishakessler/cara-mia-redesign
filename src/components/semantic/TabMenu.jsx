@@ -30,7 +30,7 @@ export default class TabMenu extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <div>
+      <div className="menu-section">
         <h2>Menu</h2>
         <Grid>
           <Grid.Column width={4}>
