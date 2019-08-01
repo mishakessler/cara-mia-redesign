@@ -52,6 +52,11 @@ p {
   font-family: 'Karla', sans-serif;
 }
 
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 
 @media all and (min-width: 1025px) {
   .mobile {
