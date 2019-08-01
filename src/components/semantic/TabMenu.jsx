@@ -30,36 +30,39 @@ export default class TabMenu extends React.Component {
     const { activeItem } = this.state
 
     return (
-      <Grid>
-        <Grid.Column width={4}>
-          <Menu fluid vertical tabular>
-            <Menu.Item
-              name='lunch'
-              active={activeItem === 'lunch'}
-              onClick={this.handleItemClick} />
-            <Menu.Item
-              name='dinner'
-              active={activeItem === 'dinner'}
-              onClick={this.handleItemClick} />
-            <Menu.Item
-              name='catering'
-              active={activeItem === 'catering'}
-              onClick={this.handleItemClick}
-            />
-            <Menu.Item
-              name='private parties'
-              active={activeItem === 'private parties'}
-              onClick={this.handleItemClick}
-            />
-          </Menu>
-        </Grid.Column>
+      <div>
+        <h2>Menu</h2>
+        <Grid>
+          <Grid.Column width={4}>
+            <Menu fluid vertical tabular>
+              <Menu.Item
+                name='lunch'
+                active={activeItem === 'lunch'}
+                onClick={this.handleItemClick} />
+              <Menu.Item
+                name='dinner'
+                active={activeItem === 'dinner'}
+                onClick={this.handleItemClick} />
+              <Menu.Item
+                name='catering'
+                active={activeItem === 'catering'}
+                onClick={this.handleItemClick}
+              />
+              <Menu.Item
+                name='private parties'
+                active={activeItem === 'private parties'}
+                onClick={this.handleItemClick}
+              />
+            </Menu>
+          </Grid.Column>
 
-        <Grid.Column stretched width={12}>
-          <Segment>
-            {this.menuRender(activeItem)}
-          </Segment>
-        </Grid.Column>
-      </Grid>
+          <Grid.Column stretched width={12}>
+            <Segment>
+              {this.menuRender(activeItem)}
+            </Segment>
+          </Grid.Column>
+        </Grid>
+      </div>
     )
   }
 }
