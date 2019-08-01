@@ -4,7 +4,7 @@
 }
 
 .menu-section .ui .segment {
-  max-height: 1000px;
+  max-height: 800px;
   overflow-y: scroll;
   background: white;
 }

@@ -1,14 +1,15 @@
-
 .gallery-section{
     background-color:#e6efec;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
-.ui.grid>.row{
+/* .ui.grid>.row{
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: none;
-}
+} */
 
 .ui image img{
     height: 30px;

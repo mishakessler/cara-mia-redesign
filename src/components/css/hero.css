@@ -8,7 +8,7 @@
 }
 
 .hero-section div {
-  margin-left: 70vw;
+  margin-left: 65vw;
 }
 
 .cta {
@@ -18,7 +18,7 @@
 
 .cta-button {
   display: block;
-  width: 80%;
+  width: 90%;
   padding: 20px;
   margin: 50px auto;
   border-radius: 0;

@@ -9,13 +9,13 @@
 }
 .about-pics img {
   margin-top: -60px;
-  max-height: 540px;
+  max-height: 500px;
 }
 
 .about-text {
   min-width: 60vw;
   margin: -100px 0 -100px -140px;
-  padding: 100px 70px 100px 200px;
+  padding: 100px 70px 150px 200px;
   text-align: left;
   background-color: #fef5eb88;
   
