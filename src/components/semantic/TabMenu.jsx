@@ -43,7 +43,7 @@ export default class TabMenu extends React.Component {
               onClick={this.handleItemClick} />
             <Menu.Item
               name='catering'
-              active={activeItem === 'companies'}
+              active={activeItem === 'catering'}
               onClick={this.handleItemClick}
             />
             <Menu.Item

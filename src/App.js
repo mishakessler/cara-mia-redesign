@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+import SidebarMenu from './components/semantic/SidebarMenu';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import TabMenu from './components/semantic/TabMenu';
@@ -10,18 +11,23 @@ import Map from './components/Map';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
 
+
 export default class App extends React.Component {
   render() {
     return (
       <div className="app">
-        <Header />
-        <Hero />
-        <TabMenu />
-        <MobileMenu />
-        <About />
-        <Gallery />
-        <Map />
-        <Footer />
+        <div className="desktop">
+          <Header />
+          <Hero />
+          <TabMenu />
+          <About />
+          <Gallery />
+          <Map />
+          <Footer />
+        </div>
+        <div className="mobile">
+          <SidebarMenu />
+        </div>
       </div>
     );
   }
