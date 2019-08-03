@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/menu.css'
 
 import { Menu, Segment } from 'semantic-ui-react'
 

@@ -3,7 +3,10 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-image: url('../../assets/mapBackground.png')
+  background-image: url('../../assets/mapBackground.png');
+  background-size: cover;
+  background-position: center center;
+
 }
 
 .hours-info{
