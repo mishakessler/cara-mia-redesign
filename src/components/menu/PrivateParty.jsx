@@ -3,8 +3,10 @@ import React from 'react';
 export default function PrivateParty() {
   return (
     <div className='submenu'>
+
+      <h4>Party Menu 1</h4>
+
       <div className="subsection">
-        <h4>Party Menu 1</h4>
 
         <h5>First Course - Salad</h5>
         <h5>Family Style Salad</h5>
@@ -28,8 +30,9 @@ export default function PrivateParty() {
         <h6>Tax and 20% gratuity will be added</h6>
       </div>
 
+      <h4>Party Menu 2</h4>
+
       <div className="subsection">
-        <h4>Party Menu 2</h4>
 
         <h5>First Course - Salad</h5>
         <h5>Family Style Hot Appetizers</h5>

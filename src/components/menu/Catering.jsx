@@ -3,9 +3,10 @@ import React from 'react';
 export default function Catering() {
   return (
     <div className="submenu">
-      <div className="subsection">
-        <h4>Appetizers & Salads</h4>
 
+      <h4>Appetizers & Salads</h4>
+
+      <div className="subsection">
         <h5>Fresh Mozarella & Tomatoes</h5>
         <p>Half Tray/Full Tray</p>
         <h6>$45/$65</h6>
@@ -32,13 +33,11 @@ export default function Catering() {
 
         <h5>Baked Clams (Per Dozen)</h5>
         <h6>Market Price</h6>
-
       </div>
 
+      <h4>Pasta</h4>
 
       <div className="subsection">
-        <h4>Pasta</h4>
-
         <h5>Baked Ziti</h5>
         <h6>Half Tray $38/Full Tray $65</h6>
 
@@ -68,13 +67,11 @@ export default function Catering() {
 
         <h5>Spinach Ravioli Portobello</h5>
         <h6>Half Tray $55/Full Tray $95</h6>
-
-
       </div>
 
-      <div className="subsection">
-        <h4>Italian Specialties</h4>
+      <h4>Italian Specialties</h4>
 
+      <div className="subsection">
         <h5>Eggplant Parmigiana</h5>
         <h6>Half Tray $50/Full Tray $85</h6>
 
@@ -115,9 +112,9 @@ export default function Catering() {
         <h6>Half Tray $75/Full Tray $130</h6>
       </div>
 
-      <div className="subsection">
-        <h4>Seafood</h4>
+      <h4>Seafood</h4>
 
+      <div className="subsection">
         <h5>Shrimp Parmigiana</h5>
         <h6>Half Tray $90/Full Tray $140</h6>
 
@@ -126,13 +123,11 @@ export default function Catering() {
 
         <h5>Seafood Combo over Linguini</h5>
         <h6>Half Tray $90/Full Tray $160</h6>
-
-
       </div>
 
-      <div className="subsection">
-        <h4>Vegetables</h4>
+      <h4>Vegetables</h4>
 
+      <div className="subsection">
         <h5>Sautéed Spinach</h5>
         <h6>Half Tray $30/Full Tray $60</h6>
 

@@ -18,18 +18,3 @@
     max-height: 26vw;
     max-width: 26vw;
 }
-
-
-@media only screen and (max-width: 1200px) {
-    .column img {
-        height: 220px;
-        width: 220px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .column img {
-        height: 150px;
-        width: 150px
-    }
-}

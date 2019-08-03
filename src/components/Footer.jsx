@@ -1,5 +1,4 @@
 import React from 'react'
-import './css/footer.css'
 
 import CaraMiaLogo from '../assets/CaraMiaLogo.png'
 import InstagramIcon from '../assets/InstagramIcon.png'

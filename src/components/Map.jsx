@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/map.css'
 
 import map from '../assets/map.png';
 
