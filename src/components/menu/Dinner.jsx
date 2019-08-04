@@ -7,8 +7,6 @@ export default function Dinner() {
       <h4>Salad</h4>
 
       <div className="subsection">
-        <p>Add grilled chicken to any salad $7, grilled shrimp $12, shredded or fresh mozzarella $2</p>
-
         <h5>Ceasar</h5>
         <p>Romain lettuce tossed in our traditional ceasar dressing w/ garlic croutons</p>
         <h6>$10/$16</h6>
@@ -38,6 +36,14 @@ export default function Dinner() {
         <h6>$5</h6>
       </div>
 
+      <div className="subsection">
+        <em>
+          <p>Add grilled chicken to any salad $7, grilled shrimp $12, shredded or fresh mozzarella $2</p>
+        </em>
+      </div>
+
+      <hr></hr>
+
       <h4>Homemade Soups</h4>
 
       <div className="subsection">
@@ -61,6 +67,8 @@ export default function Dinner() {
         <p>Homemade Chicken broth with shredded chicken, carrots & pastina</p>
         <h6>$5</h6>
       </div>
+
+      <hr></hr>
 
       <h4>Appetizers</h4>
 
@@ -95,6 +103,8 @@ export default function Dinner() {
         <p>Stuffed peppers, baked clams, stuffed mushrooms, shrimp scampi & eggplant rollatini</p>
         <h6>$15/$23</h6>
       </div>
+
+      <hr></hr>
 
       <h4>Entrees</h4>
 
@@ -190,9 +200,13 @@ export default function Dinner() {
 
         <h5>Veal Parmigiana Prosciutto</h5>
         <h6>$26</h6>
-
-        <p>All above entrees are served with choice of: spaghetti with tomato sauce (extra charge for change of sauce), or side salad with house dressing or homemade french fries substitute a vegetable for an extra charge of $5.</p>
       </div>
+
+      <div className="subsection">
+        <em><p>All entrees are served with choice of: spaghetti with tomato sauce (extra charge for change of sauce), or side salad with house dressing or homemade french fries substitute a vegetable for an extra charge of $5.</p></em>
+      </div>
+
+      <hr></hr>
 
       <h4>Seafood</h4>
 
@@ -252,6 +266,8 @@ export default function Dinner() {
         <p>all above entrees are served with choice of spaghetti with tomato sauce (extra charge for change of sauce) or side salad with house dressing or homemade french fries substitute a vegetable for an extra charge of $5</p>
       </div>
 
+      <hr></hr>
+
       <h4>Seafood Pasta Specials</h4>
 
       <div className="subsection">
@@ -271,6 +287,8 @@ export default function Dinner() {
         <p>mussels, clams, scungilli, shrimp and calamari in marinara sauce over linguine</p>
         <h6>$35</h6>
       </div>
+
+      <hr></hr>
 
       <h4>Pasta</h4>
 
@@ -339,6 +357,8 @@ export default function Dinner() {
 
         <p>Whole wheat pasta or gluten free pasta add $2</p>
       </div>
+
+      <hr></hr>
 
       <h4>Side Dishes</h4>
 
