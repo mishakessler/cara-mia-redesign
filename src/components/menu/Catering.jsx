@@ -35,6 +35,8 @@ export default function Catering() {
         <h6>Market Price</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Pasta</h4>
 
       <div className="subsection">
@@ -68,6 +70,8 @@ export default function Catering() {
         <h5>Spinach Ravioli Portobello</h5>
         <h6>Half Tray $55/Full Tray $95</h6>
       </div>
+
+      <hr></hr>
 
       <h4>Italian Specialties</h4>
 
@@ -112,6 +116,8 @@ export default function Catering() {
         <h6>Half Tray $75/Full Tray $130</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Seafood</h4>
 
       <div className="subsection">
@@ -125,6 +131,8 @@ export default function Catering() {
         <h6>Half Tray $90/Full Tray $160</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Vegetables</h4>
 
       <div className="subsection">
@@ -137,7 +145,6 @@ export default function Catering() {
         <h5>Sautéed Escarole</h5>
         <h6>Half Tray $30/Full Tray $60</h6>
       </div>
-
     </div>
   )
 }

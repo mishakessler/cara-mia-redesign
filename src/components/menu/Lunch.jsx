@@ -32,10 +32,11 @@ export default function Lunch() {
         <h6>$4</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Soup</h4>
 
       <div className="subsection">
-
         <h5>Escarole & Beans</h5>
         <p>red & white cannelloni beans with fresh sautéed escarole, garlic and oil</p>
         <h6>$6</h6>
@@ -62,10 +63,11 @@ export default function Lunch() {
         <h6>$6</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Appetizers</h4>
 
       <div className="subsection">
-
         <h5>Fried Calamari</h5>
         <p>Voted LI’s Best! Crispy golden fried calamari served with marinara sauce</p>
         <h6>$14</h6>
@@ -90,10 +92,11 @@ export default function Lunch() {
         <h6>$8</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Heroes</h4>
 
       <div className="subsection">
-
         <h5>Chicken Parmigiana</h5>
         <h6>$9</h6>
 
@@ -127,11 +130,11 @@ export default function Lunch() {
         <h6>$9</h6>
       </div>
 
+      <hr></hr>
+
       <h4>Specialties</h4>
 
       <div className="subsection">
-
-
         <h5>Penne Primavera</h5>
         <p>penne with vegetables, garlic & oil</p>
         <h6>$16</h6>
@@ -159,13 +162,13 @@ export default function Lunch() {
         <h5>Shrimp Cara Mia</h5>
         <p>shrimp in creamy garlic sauce served over a bed of linguine</p>
         <h6>$22</h6>
-
       </div>
+
+      <hr></hr>
 
       <h4>Entrees</h4>
 
       <div className="subsection">
-
         <h5>Chicken Francaise</h5>
         <h6>$18</h6>
 
@@ -200,6 +203,8 @@ export default function Lunch() {
         <h5>Shrimp Francaise</h5>
         <h6>$22</h6>
       </div>
+
+      <hr></hr>
 
       <h4>Lunch Specials</h4>
 

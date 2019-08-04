@@ -43,8 +43,10 @@ h5 {
 }
 
 h6 {
+  font-size: 1.5em;
   font-family: 'Karla', sans-serif;
   font-weight: lighter;
+  margin: 0 0 40px 0;
 }
 
 a {
@@ -166,7 +168,7 @@ p {
 }
 
 .menu-section .item {
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -190,28 +192,35 @@ p {
 .subsection {
   column-count: 2;
   column-width: 48%;
+  margin-bottom: 20px;
 }
 
 .subsection h5 {
-  font-size: 1.5em;
   margin: 0;
+  font-size: 1.2em;
+  padding: 20px 0 5px 0;
 }
 
 .subsection p {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.2em;
+  padding: 0 0 5px 0;
 }
 
 .subsection h6 {
-  font-size: 1.5em;
-  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+hr {
+  padding: 30px auto 10px auto;
 }
 
 
 /********************* ABOUT ********************/
 
 .about-section {
-  height: 500px;
   display: flex;
 }
 
@@ -221,17 +230,16 @@ p {
 }
 
 .about-pics img {
-  /* margin-top: -125px; */
+  margin-top: -50px;
   max-height: 600px;
 }
 
 .about-text {
   min-width: 60vw;
   margin: -100px 0 -100px -100px;
-  padding: 100px 150px 150px 250px;
+  padding: 100px 250px 150px 250px;
   text-align: left;
-  background-color: #fef5eb88;
-  
+  background-color: #fef5eb88; 
 }
 
 .about-text p {
@@ -246,23 +254,8 @@ p {
   background-color:#e6efec;
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 100px;
+  padding-top: 150px;
 }
-
-.gallery-section .column {
-  padding: 0 145px;
-}
-
-.ui.grid>[class*="three column"].row>.column{
-  width: auto !important;
-  margin: auto;
-}
-
-.column img {
-  max-height: 26vw;
-  max-width: 26vw;
-}
-
 
 /********************* MAP **********************/
 
@@ -351,10 +344,13 @@ p {
 
 /************** RESPONSIVE QUERIES **************/
 
+/******** Above 1281 (HDPI Screen) *******/
+
 @media all and (min-width: 1281px) {
 
 }
 
+/******** Below 1280 (MDPI Screen) *******/
 
 @media all and (max-width: 1280px) {
   .about-text{
@@ -362,11 +358,15 @@ p {
   }
 }
 
+/******** Above 1025 (All Desktop) *******/
+
 @media all and (min-width: 1025) {
   .mobile {
     display: none;
   }
 }
+
+/******** Below 1024 (All Responsive) *******/
 
 @media all and (max-width: 1024px) {
   .desktop {
@@ -384,7 +384,10 @@ p {
 
   .ui.button {
     background: none;
-    color: green;
+  }
+
+  .ui.disabled.button {
+    background: none;
   }
 
   .ui.button>.icon:not(.button) {
@@ -402,13 +405,89 @@ p {
   .hero-section div {
     margin-left: unset;
   }
+
+  #menu { 
+    padding: 15px;
+  }
+
+  .ui.attached:not(.message)+.ui.attached.segment:not(.top) {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .about-section {
+    padding: 75px 0;
+  }
+  
 }
+
+/******** Below 980 (Tablet) *******/
 
 @media all and (max-width: 980px) {
+  #menu a {
+    font-size: 1em;
+  }
+
+  .about-pics {
+    max-width: 30vw;
+    z-index: 2;
+  }
   
+  .about-pics img {
+    margin-top: -50px;
+    max-width: 275px;
+  }
+
+  .about-text {
+    padding: 75px 75px 75px 180px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
 }
 
-@media all and (max-width: 480px) {
-  
+/******** Below 680 (Mobile) *******/
+
+@media all and (max-width: 680px) {
+  .subsection {
+    column-count: 1;
+  }
+
+  #menu a {
+    font-size: 1em;
+  }
+
+  .about-section {
+    display: unset;
+    column-count: 1;
+  }
+
+  .about-pics {
+    max-width: unset;
+  }
+
+  .about-text {
+    max-width: unset;
+    margin: unset;
+    padding: 25px;
+  }
+
+  .gallery-section {
+    padding: 25px;
+  }
+
+  .map-section {
+    
+  }
+
+  .hours-info {
+    
+  }
+
+  .map-img {
+
+  }
 }
+
 
