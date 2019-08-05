@@ -461,12 +461,20 @@ hr {
   .about-section {
     display: unset;
     column-count: 1;
+    padding: 0;
   }
 
   .about-pics {
     max-width: unset;
+    max-height: 190px;
+    overflow: hidden;
+    padding: 10px;
   }
 
+  .about-pics img {
+    margin: 0 auto;
+    display: block;
+  }
   .about-text {
     max-width: unset;
     margin: unset;
@@ -478,16 +486,23 @@ hr {
   }
 
   .map-section {
-    
+    display: block;
   }
 
   .hours-info {
-    
+    width: auto;
+    margin: 0 auto;
   }
 
-  .map-img {
-
+  .map-img  {
+    margin: 0 auto;
   }
+
+  .map-img img{
+    width: 100%;
+    object-fit: cover;
+  }
+  
 }
 
 
