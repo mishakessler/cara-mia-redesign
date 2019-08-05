@@ -3,7 +3,6 @@ import React from 'react'
 import { Button, Icon, Menu, Segment, Sidebar } from 'semantic-ui-react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-
 import Hero from '../Hero';
 import MobileMenu from './MobileMenu'
 import About from '../About';
@@ -75,3 +74,4 @@ export default class SidebarMenu extends React.Component {
   }
 }
 
+// comment
