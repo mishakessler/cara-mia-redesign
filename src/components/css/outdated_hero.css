@@ -1,0 +1,35 @@
+.hero-section {
+  background: url('../../assets/HeaderImage.png');
+  background-position: center right;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 600px;
+  padding: 40px;
+}
+
+.hero-section div {
+  margin-left: 65vw;
+}
+
+.cta {
+  margin: 150px 0 50px 0;
+  text-align: center;
+}
+
+.cta-button {
+  display: block;
+  width: 90%;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 0;
+  background: white;
+  color: #565656;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-text {
+  margin-top: 80px;
+}

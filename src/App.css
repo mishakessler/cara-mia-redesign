@@ -1,3 +1,539 @@
-.App {
+/******************** GLOBAL ********************/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+h4 {
+  /* color: red; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 2.2;
+}
+
+h5 {
+  /* color: red; */
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h6 {
+  font-size: 1.5em;
+  font-family: 'Karla', sans-serif;
+  font-weight: lighter;
+  margin: 0 0 40px 0;
+}
+
+a {
+
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/******************** HEADER ********************/
+
+.secondary-nav {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 43.3px;
+  font-size: 15px;
+  color: #565656;
+  margin: 5px; 
+  padding: 5px;
+  }
+  
+  .secondary-nav p {
+    margin: 0 10px;
+  }
+  
+  .primary-nav img { 
+    width: 155px;
+    height: 131px;
+    opacity: 0.85;
+    margin: 0 auto;
+  }
+  
+  .primary-nav ul {
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0;
+    margin: 10px auto;
+    width: 100%;
+    list-style: none;
+  
+  }
+  
+  .primary-nav a {
+    padding: 8px 12px;
+    color: #565656;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+
+/********************* HERO *********************/
+  
+.hero-section {
+  background: url('./assets/HeaderImage.png');
+  background-position: center right;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 600px;
+  padding: 40px;
+}
+
+.hero-section div {
+  margin-left: 65vw;
+}
+
+.hero-section h4 {
+  font-weight: 300;
+}
+
+.cta {
+  margin: 150px 0 50px 0;
   text-align: center;
 }
+
+.cta-button {
+  display: block;
+  width: 90%;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 0;
+  background: white;
+  color: #565656;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-text {
+  margin-top: 80px;
+}
+
+
+/***************** FOOD MENUES *****************/
+
+.menu-section {
+  padding: 75px 100px 100px 0px;
+  background-color: #d8e6e2;
+}
+
+.menu-section .ui .segment {
+  max-height: 800px;
+  overflow-y: scroll;
+  background: white;
+}
+
+.menu-section h2 {
+  text-align: center;
+}
+
+.menu-section .item {
+  font-size: 1.25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-section .ui.vertical.tabular.menu .item {
+  border-bottom: 2px #979797;
+  border-top: 2px #979797;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.menu-section .menu .active.item {
+  font-weight: 300;
+  background: #decdbc !important;
+}
+
+.submenu {
+  padding: 10px;
+}
+
+.subsection {
+  column-count: 2;
+  column-width: 48%;
+  margin-bottom: 20px;
+}
+
+.subsection h5 {
+  margin: 0;
+  font-size: 1.2em;
+  padding: 20px 0 5px 0;
+}
+
+.subsection p {
+  margin: 0;
+  font-size: 1.2em;
+  padding: 0 0 5px 0;
+}
+
+.subsection h6 {
+  font-size: 1.2em;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+hr {
+  padding: 30px auto 10px auto;
+}
+
+
+/********************* ABOUT ********************/
+
+.about-section {
+  display: flex;
+}
+
+.about-pics {
+  max-width: 40vw;
+  z-index: 2;
+}
+
+.about-pics img {
+  margin-top: -50px;
+  max-height: 600px;
+}
+
+.about-text {
+  min-width: 60vw;
+  margin: -100px 0 -100px -100px;
+  padding: 100px 250px 150px 250px;
+  text-align: left;
+  background-color: #fef5eb88; 
+}
+
+.about-text p {
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+
+/******************** GALLERY *******************/
+
+.gallery-section{
+  background-color:#e6efec;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 150px;
+}
+
+/********************* MAP **********************/
+
+.map-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('./assets/mapBackground.png');
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.hours-info{
+  text-align: center;
+  height: 479px;
+  width: 375px;
+  padding: 25px;
+  align-content: center;
+  background-color: white;
+  line-height: 10px;
+}
+
+.hours-info h4{
+    font-size: 22px;
+}
+
+
+/******************** FOOTER ********************/
+
+.footer {
+  color: #666666;
+  padding: 10px 50px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer p, .footer a {
+  font-size: 1.1em;
+}
+
+.footer-column {
+  width: 30%;
+  margin: 0;
+  padding: 10px;
+}
+
+#footer-hours {
+  margin-top: 60px;
+}
+
+#footer-hours p {
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+
+#footer-address {
+  text-align: center;
+}
+
+#footer-address img {
+  max-width: 100px;
+  opacity: 0.85;
+}
+
+#footer-socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer-socials img {
+  max-width: 60px;
+  padding: 10px
+}
+
+#footer-contact-link div {
+  margin-top: 3px;
+}
+
+#footer-contact-link img {
+  margin-right: 15px;
+}
+
+
+/************** RESPONSIVE QUERIES **************/
+
+/******** Above 1281 (HDPI Screen) *******/
+
+@media all and (min-width: 1281px) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+/******** Below 1280 (MDPI Screen) *******/
+
+@media all and (max-width: 1280px) {
+  .about-text{
+    padding: 75px 75px 75px 150px;
+  }
+}
+
+/******** Above 1025 (All Desktop) *******/
+
+@media all and (min-width: 1025) {
+  .mobile {
+    display: none !important;
+  }
+}
+
+/******** Below 1024 (All Responsive) *******/
+
+@media all and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+
+  .ui.segment {
+    margin: 0;
+  }
+
+  .ui.buttons {
+    position: fixed;
+    z-index: 2;
+  }
+
+  .ui.button {
+    background: none;
+  }
+
+  .ui.disabled.button {
+    background: none;
+  }
+
+  .ui.button>.icon:not(.button) {
+    opacity: 1;
+  }
+
+  .ui.button:disabled, .ui.buttons .disabled.button, .ui.disabled.active.button, .ui.disabled.button, .ui.disabled.button:hover {
+    opacity: 1;
+  }
+
+  .ui.basic.segment {
+    padding: 0;
+  }
+
+  .hero-section div {
+    margin-left: unset;
+  }
+
+  #menu { 
+    padding: 15px;
+  }
+
+  .ui.attached:not(.message)+.ui.attached.segment:not(.top) {
+    max-height: 80vh;
+    overflow-y: scroll;
+  }
+
+  .about-section {
+    padding: 75px 0;
+  }
+  
+}
+
+/******** Below 980 (Tablet) *******/
+
+@media all and (max-width: 980px) {
+  #menu a {
+    font-size: 1em;
+  }
+
+  .about-pics {
+    max-width: 30vw;
+    z-index: 2;
+  }
+  
+  .about-pics img {
+    margin-top: -50px;
+    max-width: 275px;
+  }
+
+  .about-text {
+    padding: 75px 75px 75px 180px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+}
+
+/******** Below 680 (Mobile) *******/
+
+@media all and (max-width: 680px) {
+  .subsection {
+    column-count: 1;
+  }
+
+  #menu a {
+    font-size: 1em;
+  }
+
+  .about-section {
+    display: unset;
+    column-count: 1;
+    padding: 0;
+  }
+
+  .about-pics {
+    max-width: unset;
+    max-height: 190px;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .about-pics img {
+    margin: 0 auto;
+    display: block;
+  }
+  .about-text {
+    max-width: unset;
+    margin: unset;
+    padding: 25px;
+  }
+
+  .gallery-section {
+    padding: 25px;
+  }
+
+  .map-section {
+    display: block;
+    padding: 10vw;
+  }
+
+  .hours-info {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .map-img  {
+    margin: 0 auto;
+  }
+
+  .map-img img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .footer{
+    padding: 0;
+    display: block;
+  }
+  
+  #footer-address{
+    margin: 0 auto;
+  }
+
+  #footer-contact {
+    margin: 0 auto;
+  }
+  
+  #footer-socials  {
+    margin: 0 auto;
+  }
+
+  #footer-hours{
+    display: none;
+  }
+
+  #footer-address p{
+    display: none;
+  }
+
+  #footer-contact-link{
+    display: none;
+  }
+}
+
+

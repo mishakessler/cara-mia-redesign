@@ -1,0 +1,48 @@
+.menu-section {
+  padding: 75px 100px 100px 0px;
+  background-color: #d8e6e2;
+}
+
+.menu-section .ui .segment {
+  max-height: 800px;
+  overflow-y: scroll;
+  background: white;
+}
+
+.menu-section h2 {
+  text-align: center;
+}
+
+.menu-section .item {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-section .ui.vertical.tabular.menu .item {
+  border-bottom: 2px #979797;
+  border-top: 2px #979797;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.menu-section .menu .active.item {
+  font-weight: 300;
+  background: #decdbc !important;
+}
+
+.submenu {
+  padding: 10px;
+}
+
+.subsection {
+  column-count: 2;
+  column-width: 48%;
+}
+
+.subsection h5, p {
+  margin: 0;
+}
+
+.subsection h6 {
+  margin: 0 0 10px 0;
+}
