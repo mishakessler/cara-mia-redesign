@@ -380,8 +380,12 @@ hr {
   }
 
   .ui.buttons {
-    position: fixed;
-    z-index: 2;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .ui.buttons :hover {
+    background-color: none;
   }
 
   .ui.button {
@@ -390,6 +394,10 @@ hr {
 
   .ui.disabled.button {
     background: none;
+  }
+
+  .ui.button :hover {
+    background-color: none;
   }
 
   .ui.button>.icon:not(.button) {
@@ -404,6 +412,12 @@ hr {
     padding: 0;
   }
 
+  
+  .ui.visible.left.overlay.sidebar {
+    padding-top: 40px;
+  }
+
+
   .hero-section div {
     margin-left: unset;
   }
@@ -416,6 +430,8 @@ hr {
     max-height: 80vh;
     overflow-y: scroll;
   }
+
+
 
   .about-section {
     padding: 75px 0;
