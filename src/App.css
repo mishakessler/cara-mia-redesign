@@ -347,7 +347,9 @@ hr {
 /******** Above 1281 (HDPI Screen) *******/
 
 @media all and (min-width: 1281px) {
-
+  .mobile {
+    display: none !important;
+  }
 }
 
 /******** Below 1280 (MDPI Screen) *******/
@@ -362,7 +364,7 @@ hr {
 
 @media all and (min-width: 1025) {
   .mobile {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -487,6 +489,7 @@ hr {
 
   .map-section {
     display: block;
+    padding: 10vw;
   }
 
   .hours-info {
