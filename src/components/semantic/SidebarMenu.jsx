@@ -37,7 +37,7 @@ export default class SidebarMenu extends React.Component {
               <AnchorLink href="#home">Home</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink href="#menu">Menu</AnchorLink>
+              <AnchorLink href="#mobile-menu">Menu</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
               <AnchorLink href="#about">About</AnchorLink>
@@ -49,7 +49,7 @@ export default class SidebarMenu extends React.Component {
               <AnchorLink inverted href="#footer">Reservations</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink inverted href="#menu">Catering</AnchorLink>
+              <AnchorLink inverted href="#mobile-menu">Catering</AnchorLink>
             </Menu.Item>
           </Sidebar>
 
@@ -60,12 +60,12 @@ export default class SidebarMenu extends React.Component {
               </Button>
             </Button.Group>
             <Segment basic>
-              <Hero id="hero" />
-              <MobileMenu id="menu" />
-              <About id="about" />
-              <Gallery id="gallery" />
-              <Map id="map" />
-              <Footer id="footer" />
+              <Hero />
+              <MobileMenu />
+              <About />
+              <Gallery />
+              <Map />
+              <Footer />
             </Segment>
           </Sidebar.Pusher>
         </Sidebar.Pushable>
