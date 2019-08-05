@@ -502,7 +502,35 @@ hr {
     width: 100%;
     object-fit: cover;
   }
+
+  .footer{
+    padding: 0;
+    display: block;
+  }
   
+  #footer-address{
+    margin: 0 auto;
+  }
+
+  #footer-contact {
+    margin: 0 auto;
+  }
+  
+  #footer-socials  {
+    margin: 0 auto;
+  }
+
+  #footer-hours{
+    display: none;
+  }
+
+  #footer-address p{
+    display: none;
+  }
+
+  #footer-contact-link{
+    display: none;
+  }
 }
 
 
