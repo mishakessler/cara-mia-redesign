@@ -22,6 +22,12 @@ export default class SidebarMenu extends React.Component {
 
     return (
       <div>
+        <Button.Group>
+          <Button disabled={visible} onClick={this.handleShowClick}>
+            <Icon inverted size='big' name='bars' />
+          </Button>
+        </Button.Group>
+
         <Sidebar.Pushable as={Segment}>
           <Sidebar
             as={Menu}
@@ -40,25 +46,22 @@ export default class SidebarMenu extends React.Component {
               <AnchorLink href="#mobile-menu">Menu</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink href="#about">About</AnchorLink>
+              <AnchorLink href="#mobile-about">About</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink href="#gallery">Gallery</AnchorLink>
+              <AnchorLink href="#mobile-gallery">Gallery</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink inverted href="#footer">Reservations</AnchorLink>
+              <AnchorLink href="#mobile-map">Hours & Location</AnchorLink>
             </Menu.Item>
             <Menu.Item as='a'>
-              <AnchorLink inverted href="#mobile-menu">Catering</AnchorLink>
+              <AnchorLink href="#mobile-footer">Reservations</AnchorLink>
+            </Menu.Item>
+            <Menu.Item as='a'>
+              <AnchorLink href="#mobile-menu">Catering</AnchorLink>
             </Menu.Item>
           </Sidebar>
-
           <Sidebar.Pusher dimmed={visible}>
-            <Button.Group>
-              <Button disabled={visible} onClick={this.handleShowClick}>
-                <Icon inverted size='big' name='bars' />
-              </Button>
-            </Button.Group>
             <Segment basic>
               <Hero />
               <MobileMenu />
